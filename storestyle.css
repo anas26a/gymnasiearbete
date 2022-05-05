@@ -1,0 +1,105 @@
+html{ 
+    background: url(pics/blur1.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    cursor: url(cursor/mug6.svg), auto ;
+    }
+    .loggan{
+      width: 75px;
+      height: 100px;
+      margin: auto;
+      padding-left: 25px;
+      padding-top: 10px;
+      float: left;
+    }
+    
+    .navbar{
+      font-size: 24px;
+      padding-top: 45px;
+      padding-left: 170px;
+      word-spacing: 50px;
+      
+      }
+    a{
+        font-family:cursive ;
+        text-decoration: none;
+        color: rgb(235, 86, 110);
+        cursor: url(cursor/mug6.svg), auto ;
+    }
+    a:hover{
+        color: red
+        
+      }
+    .hashtag{
+        float: right;
+        font-family:cursive ; 
+        font-size: 24px;
+        color: red;
+        
+        padding-right: 20px;
+    }
+    
+                 /* <!-- SHOP ITEMS --> */
+
+    .shop-item{
+      float: left;
+      padding: 90px;
+      padding-top: 175px;
+      font-size: 24px;
+      
+    }
+
+    .shop-item-title{
+      font-size: 32px;
+      
+      
+    }
+
+    .shop-item-image{
+      display:block;
+    }
+
+    .shop-item-details{
+      
+      text-align: center;
+    }
+
+
+    .shop-item-price{
+      font-size: 40px;
+      
+      }
+    .shop-item-button{
+      display:block;
+     
+    }
+
+
+                         /* <!-- CART --> */
+
+
+    .cart-row{
+      font-size: 30px;
+      word-spacing: 18px;
+      
+    }
+
+    
+    .cart-total{
+      font-size: 30px;
+      word-spacing: 18px;
+      
+    }
+
+                         /* <!-- button för både shop items och cart --> */
+
+    button{
+        
+      border-style: dashed;
+      color: rgb(172, 19, 95);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: url(cursor/mug6.svg), auto ;
+  }

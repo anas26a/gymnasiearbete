@@ -1,0 +1,83 @@
+
+html{ 
+    background: url(pics/blur1.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    cursor: url(cursor/mug6.svg), auto ;
+    }
+    .loggan{
+      width: 75px;
+      height: 100px;
+      margin: auto;
+      padding-left: 25px;
+      padding-top: 10px;
+      float: left;
+    }
+    div{
+        font-size: 24px;
+        float: left;
+        padding-top: 45px;
+        padding-left: 70px;
+        word-spacing: 50px;
+        
+        }
+    a{
+        font-family:cursive ;
+        text-decoration: none;
+        color: rgb(235, 86, 110);
+        cursor: url(cursor/mug6.svg), auto ;
+    }
+    a:hover{
+        color: red
+        
+      }
+    .hashtag{
+        float: right;
+        font-family:cursive ;
+        font-size: 24px;
+        color: red;
+        padding-top: 15px;
+        padding-right: 20px;
+    }
+    
+    
+    .brodtext{
+        font-size: 24px;
+        text-align: center;
+        margin: auto;
+        padding-top: 400px;
+    }
+
+    .fade-in-text {
+
+        animation: fadeIn linear 2s;
+        -webkit-animation: fadeIn linear 2s;
+        -moz-animation: fadeIn linear 2s;
+        -o-animation: fadeIn linear 2s;
+        -ms-animation: fadeIn linear 2s;
+      }
+
+    @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+
